@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+
+}
+.lang-selector {
+    margin-right: 20px;
+}
+.lang-selector .ant-select{
+    width: 90px;
+}
+.custom-long-swiper .swiper {
+    position: static;
+}
+
+.custom-long-swiper .swiper-button-prev,.custom-long-swiper .swiper-button-next {
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border: 0.2px solid #A5A5A5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 55% !important;
+}
+/* .custom-long-swiper .swiper-wrapper{
+    padding:  0 10px !important;
+} */
+.custom-long-swiper .swiper-button-prev {
+    left: -1rem !important;
+}
+
+.custom-long-swiper .swiper-button-next {
+    right: -1rem !important;
+}
+
+.custom-long-swiper .swiper-button-next::after {
+    content: "\2192" !important;
+}
+
+.custom-long-swiper .shadow {
+    box-shadow: 0px 4px 40px #EBEBEB;
+}
+
+.custom-long-swiper .swiper-button-prev::after, .custom-long-swiper .swiper-button-next::after {
+    font-size: 35px;
+    color: black;
+}
+
+.custom-long-swiper .swiper-button-prev::after {
+    content: "\2190"
+}
+
+.fixed-nav {
+    background-color: #fff !important;
+}
+
+.bg-pos {
+    width: 100%;
+    background-position: left;
+
+}
+
+.contact-btn {
+    background: #8A59BA;
+    border-radius: 8px;
+    color: #fff;
+    padding: 0 85px !important;
+    height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background: #8A59BA;
+}
+
+.signin-btn {
+    background: #8A59BA;
+    color: #fff;
+
+    border-radius: 12px !important;
+    display: flex;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+}
+
+.google-btn, .facebook-btn {
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+textarea.ant-input {
+    height: 100px;
+}
+
+.lang-selector .ant-select-selector {
+    border: none !important;
+    outline: none !important;
+}
+
+.lang-selector .ant-select {
+    width: ar !important;
+    font-size: 18px !important;
+}
+
+.lang-selector .ant-select-arrow {
+    color: #000 !important;
+    left: 40px;
+}
+
+.ant-select-open .ant-select-selector {
+    border: none !important;
+}
+
+.lang-select .ant-select-focused .ant-select-selector,
+.lang-select .ant-select-selector:focus,
+.lang-select .ant-select-selector:active,
+.lang-select .ant-select-open .ant-select-selector {
+    border-color: #d9d9d9 !important;
+    box-shadow: none !important;
+}
+
+.lang-selector .ant-select-item {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 27px;
+}
+
+.footer-lang-selector .ant-select-selector {
+    color: #fff !important;
+
+}
+
+.footer-lang-selector .ant-select-arrow {
+    color: #fff !important;
+}
+
+.salon-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+
+
+.required-message {
+    color: red;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 8px !important;
+}
+
+@media only screen and (max-width: 1280px) {
+    .custom-long-swiper .swiper-button-prev {
+        left: 1rem !important;
+    }
+
+    .custom-long-swiper .swiper-button-next {
+        right: 1rem !important;
+    }
+}
+
+.auth-bg {
+    background-attachment: fixed;
+    background-size: contain;
+    /* background-position: 50% 50%; */
+    /* position: fixed;
+    left: 0;
+    top: 0; */
+    width: 600px;
+    background-repeat: no-repeat;
+}
+
+.auth-bg.signin {
+    background-image: url('../Images/signin.png');
+}
+
+.auth-bg.signup {
+    background-image: url('../Images/signup.png');
+}
+
+.arrow-container {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+
+}
+
+@media(max-width:776px) {
+    .arrow-container {
+        left: 85% !important;
+    }
+}
+
+.auth-icon {
+    font-size: 40px;
+}
+
+
+
+.lang-img {
+    width: 30px;
+    height: 30px;
+}
+
+.bgWhite {
+    background: white;
+    box-shadow: 0px 3px 6px 0px #cacaca;
+}
+
+.title {
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 24px
+}
+
+
+
+
+@media(max-width:976px) {
+    .bg-pos {
+        background-position: 50%;
+    }
+
+    .contact-btn {
+        height: 50px;
+        font-size: 17px;
+        padding: 0 40px;
+    }
+
+    .custom-long-swiper .swiper-button-prev,.custom-long-swiper  .swiper-button-next {
+        display: none;
+    }
+
+}
+
+
+@media(max-width:776px) {
+    .bg-pos {
+        background-position: 70% 70%;
+    }
+
+    .google-btn, .facebook-btn {
+        font-size: 10px;
+        padding: 17px;
+    }
+
+
+
+
+}
+
+
+.menu-active {
+    color: #7338AC;
+}
+
+
+
+@media(max-width:376px) {
+    .salon-img {
+        height: 160px;
+    }
+}

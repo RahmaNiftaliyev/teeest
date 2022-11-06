@@ -1,0 +1,67 @@
+{
+  "name": "rihand-landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@reduxjs/toolkit": "^1.8.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.21.4",
+    "antd-mask-input": "^2.0.7",
+    "axios": "^0.27.2",
+    "date-fns": "^2.29.3",
+    "emailjs": "^4.0.0",
+    "emailjs-com": "^3.2.0",
+    "google-map-react": "^2.2.0",
+    "i18n": "^0.15.0",
+    "i18next": "^21.8.11",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-xhr-backend": "^3.2.2",
+    "intl": "^1.2.5",
+    "react": "^18.2.0",
+    "react-calendar": "^3.7.0",
+    "react-dom": "^18.2.0",
+    "react-google-recaptcha-v3": "^1.10.0",
+    "react-hot-toast": "^2.3.0",
+    "react-i18next": "^11.17.3",
+    "react-icons": "^4.4.0",
+    "react-loading-skeleton": "^3.1.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "swiper": "^8.2.5",
+    "toastify": "^2.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4"
+  }
+}

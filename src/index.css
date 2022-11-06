@@ -1,0 +1,45 @@
+@import url("https://use.typekit.net/tzd5ouk.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box!important;
+    font-family:'Poppins', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+    margin: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+    /* padding: 0 !important; */
+}
+
+@layer components {
+    .catItem {
+        @apply font-normal text-lg text-[#8C8C8C] leading-7 cursor-pointer mb-3.5
+    }
+
+    .statistic-box {
+        @apply bg-[#EAEEF9] p-4 rounded-xl
+    }
+    .spinner-dot-active {
+       @apply bg-[#7338AC]
+    }
+}

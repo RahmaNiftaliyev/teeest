@@ -1,0 +1,56 @@
+
+.customSelect.ant-select-open {
+  background: rgba(140, 140, 140, 0.1) !important;
+  width: 100% !important;
+  border-radius: 0!important;
+  color: #000 !important;
+}
+.customSelect .ant-select-single.ant-select-open .ant-select-selection-item {
+  color: #000 !important;
+}
+
+
+.customSelect .ant-select-selector {
+  height: 68px !important ;
+  display: flex;
+  align-items: center;
+}
+.customSelect .ant-select-selection-item,
+.ant-select-selection-placeholder {
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  /* z-index: 9999999!important; */
+  color: #000 !important;
+}
+
+.selectedTimePickerStyle{
+  border: 1px solid rgba(115, 56, 172, 0.25);
+}
+
+.customSelect .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: none !important;
+}
+.customSelect .anticon-down{
+  display: none !important;
+}
+.customSelect .ant-select-dropdown {
+  top: 720px !important;
+}
+
+.customSelect .test_class {
+  top: 700px!important;
+}
+.customSelect .ant-select-arrow{
+  /* position: relative; */
+}
+/* .customSelect .ant-select-arrow::after{
+  content: url('./../Images/timePickerSelectArrow.svg');
+  color: #000;
+  position: absolute;
+  top: -65px;
+  right: 0;
+} */
+.customSelect option:disabled{
+  background: red;
+}

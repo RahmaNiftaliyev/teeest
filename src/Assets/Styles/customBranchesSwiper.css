@@ -1,0 +1,31 @@
+.custom-branches-swiper{
+    width: 640px;
+    height: 470px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border-radius: 12px;
+}
+.custom-branches-swiper .swiper-button-prev::after, .custom-branches-swiper .swiper-button-next::after {
+    font-size: 35px;
+    padding: 0 1rem ;
+    color: white;
+}
+.custom-branches-swiper .swiper-button-next,
+.custom-branches-swiper .swiper-button-prev{
+    z-index: 10;
+}
+.custom-branches-swiper .swiper-pagination-bullet-active{
+    background: #fff;
+}
+@media screen and (max-width: 1024px) {
+    .custom-branches-swiper{
+        width: 100%;
+        -webkit-border-radius: 0px 0px 12px 12px;
+        -moz-border-radius: 0px 0px 12px 12px;
+        -ms-border-radius: 0px 0px 12px 12px;
+        -o-border-radius: 0px 0px 12px 12px;
+        border-radius: 0px 0px 12px 12px;
+}
+}
